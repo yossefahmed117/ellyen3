@@ -1,0 +1,210 @@
+@media (max-width: 760px){
+    #logo{
+        margin-left:7px ;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    #card{
+        margin-left: 60px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .animated_div{
+        text-align: center;
+        margin-left: 140px;
+        margin-bottom: 30px;
+        background: #0c5bee;
+        color: white;
+        border-radius: 5px;
+        height: 30px;
+        width: 80px;
+        transition: 1.5s;
+    }
+    .animated_div:hover{
+        text-align: center;
+        background: rgb(46, 159, 211);
+        font-size: 40px;
+        height: 100px;
+        width: 190px;
+}
+}
+#mb{
+    text-align: right;
+}
+img {
+    width: auto;
+    height: auto;
+}
+@media (min-width: 800px){
+    #pop{
+        text-align: center;
+        margin-left: 425px;
+    }
+}
+#main{
+    display: flex;
+}
+#navbar{
+    margin-top: 10px;
+}
+#as{
+    width: max-content;
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+#as::after{
+    content: "";
+    position:absolute;
+    bottom: -5px;
+    height: 10px;
+    width: 170px;
+    left: 0px;
+    background-color: rgb(137, 139, 150);
+    transition: 0.8s;
+    transition-timing-function:ease-in-out ;
+    transform: scalex(0);
+}
+#as:hover::after{
+    transform: scalex(1);
+}
+#as{
+    color: black;
+}
+#ae{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+#ae::after{
+    content: "";
+    position:absolute;
+    z-index: -1;
+    inset: 92% 0 0 0;
+    background: #0c5bee;
+    transition: 0.8s;
+}
+#ae:hover {color: #fff;}
+#ae:hover::after{
+    inset: 0 0 0 0;
+}
+@media (min-width: 761px){
+#logo{
+    margin-left: 485px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#ko{
+    margin-left: 1050px;
+    margin-top: 50px;
+}
+}
+#title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#note{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#link1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#link2{
+    text-align: center;
+    margin-left: 15px;
+}
+#hia1{
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+#st1{
+    text-align: right;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+#vo{
+    text-align: right;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+#ro{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#twa{
+    text-align: center;
+    margin-bottom: 50px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+@media (min-width: 800px) {
+    #card{
+        text-align: center;
+        margin-left: 550px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+}
+#woo{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#gam{
+    text-align: center;
+}
+#pag{
+    margin-left: 525px;
+}
+#ai{
+    margin-left: 530px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.dropdown{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#tar{
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media (min-width: 800px){
+    .animated_div{
+        text-align: center;
+        margin-left: 635px;
+        margin-bottom: 30px;
+        background: #0c5bee;
+        color: white;
+        border-radius: 5px;
+        height: 30px;
+        width: 80px;
+        transition: 1.5s;
+    }
+    .animated_div:hover{
+        text-align: center;
+        background: rgb(46, 159, 211);
+        font-size: 40px;
+        height: 100px;
+        width: 190px;
+    }
+}
+
+.back{
+    background-image: url("—Pngtree—hand drawn ramadan kareem background_15343627.png");
+}
